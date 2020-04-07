@@ -4,6 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
+yarn.lock
+!/yarn.lock
+test/node_modules
 
 # testing
 /coverage
@@ -16,6 +20,7 @@
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
